@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: #E5E5E5;
+}
+
+.cabecalho {
+    padding: 40px 40px;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+}
+
+.conteudo__criptografar{
+    width: 800px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 80px 0px 80px;
+}
+
+.conteudo__criptografar__caixa{
+    width: 800px;
+    height: 700px;
+    background-color: #E5E5E5;
+    border: none;
+    outline: none;
+    font-size: 32px;
+}
+
+.conteudo__criptografar__caixa::placeholder{
+    color: #0A3871;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+}
+
+.conteudo__area{
+    height: 900px;
+    width: 400px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px 18px 236px 14px;
+}
+
+.conteudo__area__texto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.conteudo__area__texto h2{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: #343A40;
+}
+
+.conteudo__area__texto p{
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+}
+
+.botoes{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 40px 0px 55px 240px;
+}
+
+.botoes__paragrafo {
+    position: absolute;
+    bottom: 85%;
+    background-image: url(../assets/image/alert.png);
+    background-repeat: no-repeat;
+}
+
+.botoes__paragrafo p{
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+    padding-left: 20px;
+}
+
+.botoes__criptografar {
+    width: 250px;
+    height: 67px;
+    border-radius: 24px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    transition: 0.2s ease-in-out;
+}
+
+.botoes__criptografar:hover{
+    background-color: #474F7A;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.botoes__descriptografar{
+    width: 250px;
+    height: 67px;
+    border-radius: 24px;
+    border: none;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    transition: 0.2s ease-in-out;       
+}
+
+.botoes__descriptografar:hover {
+    background-color: #0A3871;
+    color: #D8DFE8;
+    text-decoration: underline;
+    cursor: pointer;
+}
