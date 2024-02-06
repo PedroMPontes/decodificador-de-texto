@@ -14,15 +14,17 @@
     <main class="conteudo">
         <div class="conteudo__criptografar">
 
-            <textarea name="texto" id="" cols="100" rows="100" class="conteudo__criptografar__caixa" placeholder="Digite seu texto"></textarea>
+            <textarea name="texto" id="textarea" cols="100" rows="100" class="conteudo__criptografar__caixa" placeholder="Digite seu texto"></textarea>
 
         </div>
 
         <div class="conteudo__area">
 
-            <div class="conteudo__area__texto">
+            <p id="conteudo__area__criptografia"></p>
 
-                <img src="assets/image/High quality products 1 1.svg" class="conteudo__area__texto__" alt="">
+            <div class="conteudo__area__texto" id="conteudo__area__texto">
+
+                <img src="assets/image/High quality products 1 1.svg" alt="">
 
                 <h2>Nenhuma mensagem encontrada</h2>
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
@@ -37,13 +39,13 @@
         <div class="botoes__paragrafo">
             <p>Apenas letras minúsculas e sem acento.</p>
         </div>
-        <button class="botoes__criptografar">Criptografar</button>
+        <button onclick="criptografar()" class="botoes__criptografar">Criptografar</button>
 
         <button class="botoes__descriptografar">Descriptografar</button>
 
     </section>
 
-    
+    <script src="app.js"></script>
 
 </body>
 </html>

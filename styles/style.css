@@ -37,12 +37,12 @@ body {
     background-color: #E5E5E5;
     border: none;
     outline: none;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .conteudo__criptografar__caixa::placeholder{
     color: #0A3871;
-    font-size: 32px;
+    font-size: 2rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -56,8 +56,16 @@ body {
     border-radius: 32px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding: 0px 18px 236px 14px;
+    padding: 10px;
+}
+
+#conteudo__area__criptografia{
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+    justify-content: flex-start;
+    max-width: 100%;
+    word-wrap: break-word;
+    padding: 10px;
 }
 
 .conteudo__area__texto{
@@ -68,7 +76,7 @@ body {
 }
 
 .conteudo__area__texto h2{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-primaria);
     color: #343A40;
 }
@@ -94,7 +102,7 @@ body {
 }
 
 .botoes__paragrafo p{
-    font-size: 12px;
+    font-size: 0.75rem;
     font-family: var(--fonte-primaria);
     color: #495057;
     padding-left: 20px;
@@ -108,6 +116,7 @@ body {
     color: #FFFFFF;
     background-color: #0A3871;
     font-family: var(--fonte-primaria);
+    font-size: 1rem;
     transition: 0.2s ease-in-out;
 }
 
@@ -125,6 +134,7 @@ body {
     color: #0A3871;
     background-color: #D8DFE8;
     font-family: var(--fonte-primaria);
+    font-size: 1rem;
     border: 1px solid #0A3871;
     transition: 0.2s ease-in-out;       
 }
