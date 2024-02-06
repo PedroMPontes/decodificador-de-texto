@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+:root{
+    --fonte-primaria: 'Inter', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #E5E5E5;
 }
@@ -33,7 +43,7 @@ body {
 .conteudo__criptografar__caixa::placeholder{
     color: #0A3871;
     font-size: 32px;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-primaria);
 }
 
 .conteudo__area{
@@ -59,12 +69,12 @@ body {
 
 .conteudo__area__texto h2{
     font-size: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-primaria);
     color: #343A40;
 }
 
 .conteudo__area__texto p{
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-primaria);
     color: #495057;
 }
 
@@ -85,7 +95,7 @@ body {
 
 .botoes__paragrafo p{
     font-size: 12px;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-primaria);
     color: #495057;
     padding-left: 20px;
 }
@@ -97,7 +107,7 @@ body {
     border: none;
     color: #FFFFFF;
     background-color: #0A3871;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-primaria);
     transition: 0.2s ease-in-out;
 }
 
@@ -114,7 +124,7 @@ body {
     border: none;
     color: #0A3871;
     background-color: #D8DFE8;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-primaria);
     border: 1px solid #0A3871;
     transition: 0.2s ease-in-out;       
 }
