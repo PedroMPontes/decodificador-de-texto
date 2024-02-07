@@ -22,11 +22,12 @@ function descriptografar(){
     let texto = document.getElementById('textarea').value;
 
     let textoDescriptografado = texto
-    .replace(/ai/g, "a")
     .replace(/enter/g, "e")
     .replace(/imes/g, "i")
     .replace(/ober/g, "o")
-    .replace(/ufat/g, "u");
+    .replace(/ufat/g, "u")
+    .replace(/ai/g, "a");
+
 
     document.getElementById('conteudo__area__texto').style.display = 'none';
 
