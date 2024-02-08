@@ -35,3 +35,12 @@ function descriptografar(){
     campoMostrarTexto.innerHTML = textoDescriptografado;
     
 }
+
+
+function copiarTexto(){
+
+    const fonte = document.getElementById('conteudo__area__criptografia');
+    const textoCopiado = fonte.innerHTML;
+    navigator.clipboard.writeText(textoCopiado);
+
+}
