@@ -15,7 +15,7 @@ body {
 }
 
 .cabecalho {
-    padding: 40px 40px;
+    padding: 3% 3%;
 }
 
 .conteudo{
@@ -24,11 +24,11 @@ body {
 }
 
 .conteudo__criptografar{
-    width: 800px;
-    height: 700px;
+    width: 60%;
+    height: 60%;
     display: flex;
     justify-content: center;
-    margin: 0px 80px 0px 80px;
+    margin: 0px 0px 0px 80px;
 }
 
 .conteudo__criptografar__caixa{
@@ -47,8 +47,8 @@ body {
 }
 
 .conteudo__area{
-    height: 900px;
-    width: 400px;
+    height: 145%;
+    width: 30%;
     position: absolute;
     right: 40px;
     top: 40px;
